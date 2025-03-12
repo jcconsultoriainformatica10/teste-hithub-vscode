@@ -1,0 +1,25 @@
+/* Definindo a margem e padding para garantir que a página fique bem espaçada */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do banner "fundo" */
+.banner {
+    width: 15cm; /* Largura de 15cm */
+    height: 5cm; /* Altura de 5cm */
+    background-color: #3498db; /* Cor de fundo azul */
+    display: flex;
+    align-items: center; /* Alinha o conteúdo verticalmente */
+    justify-content: center; /* Alinha o conteúdo horizontalmente */
+    color: white;
+    font-size: 2em;
+}
+
+/* Estilo do conteúdo da página */
+.conteudo {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+}
